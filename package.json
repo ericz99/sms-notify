@@ -1,0 +1,46 @@
+{
+  "name": "sms-notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericz99/sms-notify.git"
+  },
+  "keywords": [
+    "sms",
+    "notify",
+    "system"
+  ],
+  "author": "Eric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericz99/sms-notify/issues"
+  },
+  "homepage": "https://github.com/ericz99/sms-notify#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.12",
+    "twilio": "^3.31.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
