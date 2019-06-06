@@ -300,6 +300,11 @@ module.exports = {
       const user = await User.findOne({ _id: id });
       await user.remove();
 
+      const admin = await Admin.findOne({ email: req.user.email });
+      const foundUser = admin.user.map(val => val.toString()).indexOf(id);
+
+      await admin.user.splice(foundUser, 1);
+      await admin.save();
       // return response back
       return res.status(200).json({
         statusCode: 200,
