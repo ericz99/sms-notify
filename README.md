@@ -63,7 +63,7 @@ If you are planning to use a different database hosting, like mlab, please chang
 
 - [ ] Filter Phone Numbers & Name
 - [ ] Add more providers
-- [x] Redo Database Structure | As of now if you create more than one admin accounts, any one will be able to see anyones newly created users!
+- [x] Redo Database Structure
 - [ ] Add Dashboard Analytics
 - [ ] Refactor any necessary components + lifecycle methods
 - [ ] Alert messages is very inconsistent, need to fix that.
