@@ -43,6 +43,7 @@ If you are planning to use a different database hosting, like mlab, please chang
 #  Ability to add infinite numbers of phonenumbers
 #  Support sms services like twilio, etc...
 #  Fully customizable message settings
+#  Simple but yet beautiful UI design
 #  Many more...
 ```
 
@@ -57,6 +58,19 @@ If you are planning to use a different database hosting, like mlab, please chang
 ![1](https://imgur.com/VYOQgEL.png)
 ![2](https://imgur.com/sCXH0Jv.png)
 ![3](https://i.imgur.com/Yl1atLF.png)
+
+## Todo
+
+- [ ] Filter Phone Numbers & Name
+- [ ] Add more providers
+- [x] Redo Database Structure | As of now if you create more than one admin accounts, any one will be able to see anyones newly created users!
+- [ ] Add Dashboard Analytics
+- [ ] Refactor any necessary components + lifecycle methods
+- [ ] Alert messages is very inconsistent, need to fix that.
+
+## Information
+
+Currently, this supports only twilio, but I plan to add more in the future. As of now, twilio you need a "upgraded account" not a trial account. Trial account will not send any unverified numbers but yourself. In addition, there's still bugs that I have to fix, but everything is currently functional. Everything should be self explanatory. Play around with the web app :). Any questions feel free to open an issue!
 
 ## Bugs/Errors?
 
