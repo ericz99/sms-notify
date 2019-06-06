@@ -1,0 +1,34 @@
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-item a {
+  margin-right: 20px;
+}
+
+.heading {
+  margin: 50px 0 0 0;
+}
+
+.heading-bar {
+  height: 5px;
+  width: 45px;
+  background: #000000;
+}
+
+.heading p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6177cc;
+  font-weight: 700;
+}
+
+.form {
+  margin: 50px 0;
+}
+
+.btnGroup button {
+  margin: 0 15px 0 0;
+}

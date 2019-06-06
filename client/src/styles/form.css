@@ -1,0 +1,42 @@
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 465px;
+  width: 100%;
+}
+
+.heading {
+  margin: 110px 0 0 26px;
+}
+
+.heading-bar {
+  height: 5px;
+  width: 45px;
+  background: #000000;
+}
+
+.heading p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6177cc;
+  font-weight: 700;
+}
+
+.right {
+  padding: 0 0 20px 0;
+  text-align: right;
+}
+
+.right a {
+  color: #d82b48;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+}
